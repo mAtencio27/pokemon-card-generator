@@ -31,8 +31,12 @@ class PokemonElements:
         "Fighting",
         ascii_color="\033[31m",
     )
+    FAIRY = Element(
+        "Fairy",
+        ascii_color="\033[31m",
+    )
 
-    ALL = [NEUTRAL, FIRE, WATER, GRASS, ELECTRIC, PSYCHIC, FIGHTING]
+    ALL = [NEUTRAL, FIRE, WATER, GRASS, ELECTRIC, PSYCHIC, FIGHTING, FAIRY]
     _ELEMENTS_BY_NAME = {element.name.lower(): element for element in ALL}
 
     def get_element_by_name(name: str) -> Element:
@@ -48,6 +52,8 @@ def get_resist(element: Element) -> Element:
         return PokemonElements.ELECTRIC
     elif element == PokemonElements.PSYCHIC:
         return PokemonElements.FIGHTING
+    elif element == PokemonElements.FAIRY:
+        return PokemonElements.PSYCHIC
     else:
         return None
 
@@ -65,5 +71,7 @@ def get_weakness(element: Element) -> Element:
         return PokemonElements.FIGHTING
     elif element == PokemonElements.FIGHTING:
         return PokemonElements.PSYCHIC
+    elif element == PokemonElements.FAIRY:
+        return PokemonElements.NEUTRAL
     else:
         return None

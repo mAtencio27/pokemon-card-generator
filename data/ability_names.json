@@ -226,5 +226,78 @@
     "Judo Crush",
     "Battle Smash",
     "Mega Punch"
+  ],
+  "fairy_1_pure_standard": ["Sweet Kiss", "Punch"],
+  "fairy_2_pure_standard": ["Charm", "Clobber", "Calm Mind"],
+  "fairy_2_mixed_standard": ["Moonlight", "Kickflip", "Wallop"],
+  "fairy_3_pure_standard": ["Punch", "Furious Combo", "Rock Breaker"],
+  "fairy_3_mixed_standard": ["Sweet Kiss", "Fissure", "Smash"],
+  "fairy_4_pure_standard": [
+    "Fairy Wind",
+    "Dazzling Gleam",
+    "Moonblast",
+    "Avalanche",
+    "Mega Impact"
+  ],
+  "fairy_4_mixed_standard": [
+    "Fleur Cannon",
+    "Dazzling Gleam",
+    "Battle Smash",
+    "Mega Punch"
+  ],
+  "dark_1_pure_standard": ["Bite", "Crunch"],
+  "dark_2_pure_standard": ["Bite", "Torment", "Theif"],
+  "dark_2_mixed_standard": ["Beat Up", "Knock Off", "Assurence"],
+  "dark_3_pure_standard": ["Dark Pulse", "Fling", "Night Slash"],
+  "dark_3_mixed_standard": ["Night Slash", "Dark Pulse", "Fling"],
+  "dark_4_pure_standard": [
+    "Dark Pulse",
+    "Payback",
+    "Sucker Punch",
+    "Foul Play",
+    "Snarl"
+  ],
+  "dark_4_mixed_standard": [
+    "Dark Pulse",
+    "Payback",
+    "Sucker Punch",
+    "Foul Play"
+  ],
+  "dragon_1_pure_standard": ["Bite", ""],
+  "dragon_2_pure_standard": ["", "", ""],
+  "dragon_2_mixed_standard": ["", "", ""],
+  "dragon_3_pure_standard": ["", "", ""],
+  "dragon_3_mixed_standard": ["", "", ""],
+  "dragon_4_pure_standard": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "dragon_4_mixed_standard": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "metal_1_pure_standard": ["", ""],
+  "metal_2_pure_standard": ["", "", ""],
+  "metal_2_mixed_standard": ["", "", ""],
+  "metal_3_pure_standard": ["", "", ""],
+  "metal_3_mixed_standard": ["", "", ""],
+  "metal_4_pure_standard": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "metal_4_mixed_standard": [
+    "",
+    "",
+    "",
+    ""
   ]
+
 }

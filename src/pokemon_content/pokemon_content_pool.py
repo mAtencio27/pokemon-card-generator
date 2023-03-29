@@ -249,6 +249,7 @@ CREATURES_BY_ELEMENT = {
     PokemonElements.ELECTRIC: set(LAND_MAMMALS + REPTILES + BIRDS),
     PokemonElements.PSYCHIC: set(INSECTS + LAND_MAMMALS + REPTILES + BIRDS),
     PokemonElements.FIGHTING: set(LAND_MAMMALS + INSECTS + REPTILES),
+    PokemonElements.FAIRY: set(LAND_MAMMALS + BIRDS),
 }
 
 ENVIRONMENTS_BY_ELEMENT = {
@@ -259,6 +260,7 @@ ENVIRONMENTS_BY_ELEMENT = {
     PokemonElements.ELECTRIC: ["mountain", "city", "thunderstorm"],
     PokemonElements.PSYCHIC: ["castle", "cave", "crypt"],
     PokemonElements.FIGHTING: ["arena", "ruins", "canyon"],
+    PokemonElements.FAIRY: ["ruins", "forest", "woods"],
 }
 GLOBAL_DETAIL_ADJECTIVES = [
     "white",
@@ -300,7 +302,18 @@ DETAIL_ADJECTIVES_BY_ELEMENT = {
         "galaxy-pattern",
         "violet hypnotic",
     ],
-    PokemonElements.FIGHTING: ["red and black", "rocky", "stone", "brown and grey"],
+    PokemonElements.FIGHTING: [
+        "red and black",
+        "rocky",
+        "stone",
+        "brown and grey"
+    ],
+     PokemonElements.FAIRY: [
+        "pink and white",
+        "round",
+        "cute",
+        "magical"
+    ],
 }
 
 AMBIENCE_BY_ELEMENT = {
@@ -345,6 +358,12 @@ AMBIENCE_BY_ELEMENT = {
     PokemonElements.FIGHTING: [
         "orange ambient lighting",
         "red and purple ambient lighting",
+        "orange and blue ambient lighting",
+        "galaxy background",
+    ],
+    PokemonElements.FAIRY: [
+        "pink ambient lighting",
+        "pink and purple ambient lighting",
         "orange and blue ambient lighting",
         "galaxy background",
     ],
