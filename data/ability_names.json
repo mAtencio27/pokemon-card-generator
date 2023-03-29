@@ -263,41 +263,41 @@
     "Sucker Punch",
     "Foul Play"
   ],
-  "dragon_1_pure_standard": ["Bite", ""],
-  "dragon_2_pure_standard": ["", "", ""],
-  "dragon_2_mixed_standard": ["", "", ""],
-  "dragon_3_pure_standard": ["", "", ""],
-  "dragon_3_mixed_standard": ["", "", ""],
+  "dragon_1_pure_standard": ["Bite", "Swipe"],
+  "dragon_2_pure_standard": ["Bite", "Swipe", "Dragon Breath"],
+  "dragon_2_mixed_standard": ["Dragon Claw", "Dragon Breath", "Dragon Breath"],
+  "dragon_3_pure_standard": ["Dragon Claw", "Dragon Dance", "Dragon Pulse"],
+  "dragon_3_mixed_standard": ["Dragon Claw", "Dragon Dance", "Dragon Pulse"],
   "dragon_4_pure_standard": [
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Dragon Energy",
+    "Dragon Pulse",
+    "Dragon Rush",
+    "Dragon Tail",
+    "Eterna Beam"
   ],
   "dragon_4_mixed_standard": [
-    "",
-    "",
-    "",
-    ""
+    "Dragon Energy",
+    "Dragon Pulse",
+    "Dragon Rush",
+    "Eterna Beam"
   ],
-  "metal_1_pure_standard": ["", ""],
-  "metal_2_pure_standard": ["", "", ""],
-  "metal_2_mixed_standard": ["", "", ""],
-  "metal_3_pure_standard": ["", "", ""],
-  "metal_3_mixed_standard": ["", "", ""],
+  "metal_1_pure_standard": ["Iron Tail", "Metal Claw"],
+  "metal_2_pure_standard": ["Iron Tail", "Metal Claw", "Steel Wing"],
+  "metal_2_mixed_standard": ["Iron Tail", "Metal Claw", "Steel Wing"],
+  "metal_3_pure_standard": ["Metal Sound", "Meteor Smash", "Iron Head"],
+  "metal_3_mixed_standard": ["Metal Sound", "Meteor Smash", "Iron Head"],
   "metal_4_pure_standard": [
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Magnet Bomb",
+    "Metal Burst",
+    "Mirror Shot",
+    "Gyro Ball",
+    "Bullet Punch"
   ],
   "metal_4_mixed_standard": [
-    "",
-    "",
-    "",
-    ""
+    "Magnet Bomb",
+    "Metal Burst",
+    "Mirror Shot",
+    "Gyro Ball"
   ]
 
 }
