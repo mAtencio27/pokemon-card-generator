@@ -250,6 +250,9 @@ CREATURES_BY_ELEMENT = {
     PokemonElements.PSYCHIC: set(INSECTS + LAND_MAMMALS + REPTILES + BIRDS),
     PokemonElements.FIGHTING: set(LAND_MAMMALS + INSECTS + REPTILES),
     PokemonElements.FAIRY: set(LAND_MAMMALS + BIRDS),
+    PokemonElements.DARK: set(LAND_MAMMALS + INSECTS + REPTILES),
+    PokemonElements.DRAGON: set(REPTILES),
+    PokemonElements.METAL: set(LAND_MAMMALS + BIRDS + REPTILES + INSECTS),
 }
 
 ENVIRONMENTS_BY_ELEMENT = {
@@ -261,6 +264,9 @@ ENVIRONMENTS_BY_ELEMENT = {
     PokemonElements.PSYCHIC: ["castle", "cave", "crypt"],
     PokemonElements.FIGHTING: ["arena", "ruins", "canyon"],
     PokemonElements.FAIRY: ["ruins", "forest", "woods"],
+    PokemonElements.DARK:["ruins","castle","crypt"],
+    PokemonElements.DRAGON:["ruins","mountain","volcano"],
+    PokemonElements.METAL:["cave","mountain"],
 }
 GLOBAL_DETAIL_ADJECTIVES = [
     "white",
@@ -314,6 +320,25 @@ DETAIL_ADJECTIVES_BY_ELEMENT = {
         "cute",
         "magical"
     ],
+    PokemonElements.DARK: [
+        "scary",
+        "purple cosmic",
+        "galaxy-pattern",
+        "violet hypnotic",
+    ],
+     PokemonElements.DRAGON: [
+        "fearless",
+        "friendly",
+        "large",
+        "action"
+    ],
+     PokemonElements.METAL: [
+        "gray and brown",
+        "rocky",
+        "stern",
+        "metallic"
+    ],
+    
 }
 
 AMBIENCE_BY_ELEMENT = {
@@ -365,6 +390,24 @@ AMBIENCE_BY_ELEMENT = {
         "pink ambient lighting",
         "pink and purple ambient lighting",
         "orange and blue ambient lighting",
+        "galaxy background",
+    ],
+    PokemonElements.DARK: [
+        "purple ambient lighting",
+        "dark and purple ambient lighting",
+        "violent shadows",
+        "galaxy background",
+    ],
+    PokemonElements.DRAGON: [
+        "natural ambient lighting",
+        "sunny and dreamy ambient lighting",
+        "orange and blue ambient lighting",
+        "galaxy background",
+    ],
+    PokemonElements.METAL: [
+        "natural ambient lighting",
+        "natural and brown ambient lighting",
+        "earthtones",
         "galaxy background",
     ],
 }
