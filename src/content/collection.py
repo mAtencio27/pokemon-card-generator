@@ -83,15 +83,23 @@ class Collection:
             "cards": [card.to_json() for card in self.cards],
         }
 
+    #
+    #
+    #This is where you can adjust the folder output path
+    # YOU NEED TO ADJUST ALL PATHS AS THEY DELETE AND CREATE NEW PATHS!!!!
+    #
+    #
     def export(self):
-        collection_path = f"./output/{self.collection_name}/"
-        cards_folder = f"./output/{self.collection_name}/cards"
-        images_folder = f"./output/{self.collection_name}/images"
-        rendered_cards_folder = f"./output/{self.collection_name}/renders"
+        collection_path = f"./pokemon-card-generator/output/{self.collection_name}/"
+        cards_folder = f"./pokemon-card-generator/output/{self.collection_name}/cards"
+        images_folder = f"./pokemon-card-generator/output/{self.collection_name}/images"
+        rendered_cards_folder = f"./pokemon-card-generator/output/{self.collection_name}/renders"
 
         # If collection path exists, delete it.
         if os.path.exists(collection_path):
+            
             shutil.rmtree(collection_path)
+
 
         os.makedirs(collection_path, exist_ok=True)
         os.makedirs(cards_folder, exist_ok=True)

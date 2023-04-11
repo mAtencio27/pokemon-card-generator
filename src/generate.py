@@ -80,6 +80,7 @@ def main():
                 element=current_element, subject_override=subject_override
             )
             print(*monsters, sep="\n\n")
+
         current_collection.export()
 
 
